@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://news-app-znk9.onrender.com';
 // get topheadlines
 export const  getNews=async (category='')=>{
 const url = category ? `/news?category=${category}` : '/news';
